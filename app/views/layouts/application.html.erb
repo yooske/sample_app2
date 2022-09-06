@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <header>
+      <ul>
+        <li><%= link_to "new", new_list_path %></li>
+        <li><%= link_to "index", lists_path %></li>
+      </ul>
+    </header>
     <%= yield %>
   </body>
 </html>
